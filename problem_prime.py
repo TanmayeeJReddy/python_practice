@@ -9,7 +9,7 @@ for i in range(2, n):
             if(i % p == 0):
                 is_prime = False
                 break
-        if is_prime:
+        if is_prime == True:
             print(i)
 
 print('Done.')
