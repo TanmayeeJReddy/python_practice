@@ -6,11 +6,11 @@
 # Output list: [1, 2, 3, 4, 5]
 
 
-list = []
+list = []                           #Initialising an empty list
 n = int(input('Input N: '))
-for i in range(0,n):
-    element = int(input())
+for i in range(0,n):                #To read the elements entered by the user
+    element = int(input())          #Reads all the elements entered by the user and stores it in 'element'
 
-    list.append(element)
+    list.append(element)            #Adding the read elements into the empty list initialised in the beginning  
 
-print(list)
+print(list)                         #Prints the final list
