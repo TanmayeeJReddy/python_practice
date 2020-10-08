@@ -10,7 +10,7 @@ list = []                           #Initialising an empty list
 n = int(input('Input N: '))
 for i in range(0,n):                #To read the elements entered by the user
     element = int(input())          #Reads all the elements entered by the user and stores it in 'element'
-
+    print(element)
     list.append(element)            #Adding the read elements into the empty list initialised in the beginning  
 
 print(list)                         #Prints the final list
