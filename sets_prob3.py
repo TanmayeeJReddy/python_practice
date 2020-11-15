@@ -5,7 +5,7 @@ b = int(input())
 set_b = set(map(int, input().split()))
 print('Set B:',set_b)
 
-set_c = set_a.intersection(set_b)
+set_c = set_a.intersection(set_b)   #or set_c = (set_a) & (set_b)
 print('Students in both Set-A & Set-B:',set_c)
 
 sum = 0

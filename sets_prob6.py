@@ -5,9 +5,9 @@ n = int(input())
 
 for i in range(n):
     x = input().split()
-    #print('list:',x)
     set_B = set(map(int, input().split()))
     #print('Set-B:', set_B)
+
     if x[0] == 'intersection_update':
         set_A.intersection_update(set_B)     #or (set_A) &= (set_B)
     elif x[0] == 'update':
